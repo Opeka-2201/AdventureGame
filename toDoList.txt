@@ -1,0 +1,5 @@
+fonction fight
+    pdt combat : attack, shield, armor, eat, help, use <potion>
+
+
+
