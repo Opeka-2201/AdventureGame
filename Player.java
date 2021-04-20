@@ -108,7 +108,7 @@ public class Player {
             System.out.println("Invalid command : take <object>");
         else{
             Item itemToTake = this.current.getRoomItems(substr[1]);
-            if(itemToTake== null)
+            if(itemToTake == null)
                 System.out.println("Invalid item : item not in the room");
             else{
                 this.current.pickupItem(itemToTake);
